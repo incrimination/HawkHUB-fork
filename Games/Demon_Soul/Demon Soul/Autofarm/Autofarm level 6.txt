@@ -1,0 +1,13 @@
+local zone = game.Workspace.GhostPos.Leve6
+local player = game.Players.LocalPlayer
+local char = player.Character
+
+for _, v in pairs(zone:GetDescendants()) do
+    if v:IsA("Model") then
+        repeat
+        char.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame
+            game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("GeneralAttack"):FireServer()
+            wait()
+        until humanoid.Health == 0
+    end
+end
