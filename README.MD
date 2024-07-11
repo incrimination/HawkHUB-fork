@@ -1,3 +1,4 @@
+**Please give us credits if you are going to use our code!**
 **Credits**
 # Owners: Hanki,Alex
 # This Script has discontinued: 2022-2024
