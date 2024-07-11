@@ -237,3 +237,5 @@ end)
 ```
 
 #Note: There are 4 types of notify same as notification. They are Done, Warn, Error and Notify.
+
+https://media.discordapp.net/attachments/1117805357830508554/1148024926591258624/Untitled_Project.mp4?ex=66910847&is=668fb6c7&hm=6227edcd9ed20b8b49c655320107fa3819c1d2a3b10778897c8e7fbfd5ae6b3b&
