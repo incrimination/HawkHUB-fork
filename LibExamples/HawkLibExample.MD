@@ -240,4 +240,4 @@ end)
 
 ![HawkLib](https://cdn.discordapp.com/attachments/1117805357830508554/1147304623288369242/image.png?ex=66910c72&is=668fbaf2&hm=00489d26ad146f9a65588fb15fecb154a2dafc36a36488018defa8d6cf8cac72&)
 
-![Watch the video](https://media.discordapp.net/attachments/1247249252602871921/1260994893904347216/Untitled_Project_1.mp4?ex=66915882&is=66900702&hm=f095186c0863c1f96bc558fbbd947cdc5070f15417ed8c63d2f9abcc2427d692&)
+https://media.discordapp.net/attachments/1247249252602871921/1260994893904347216/Untitled_Project_1.mp4?ex=66915882&is=66900702&hm=f095186c0863c1f96bc558fbbd947cdc5070f15417ed8c63d2f9abcc2427d692&
