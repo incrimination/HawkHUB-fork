@@ -1,3 +1,4 @@
+Image Function is firstly made by __spyro. After the ui libs with image function probably skidded this source
 # Put this to make ui lib working
 ```lua
 _Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
@@ -225,12 +226,12 @@ Notifications:Notification("Example","This is a notification","Done",1)
 ```
 -----------------------------------------
 # Creating Notifications with Buttons
-#Error Notification with buttons
+# Error Notification with buttons
 ```lua
 Notifications:Notify("Example","This is a notification","Error",function()
 end)
 ```
-#Notify Notification with buttons
+# Notify Notification with buttons
 ```lua
 Notifications:Notify("Example","This is a notification","Notify",function()
 end)
