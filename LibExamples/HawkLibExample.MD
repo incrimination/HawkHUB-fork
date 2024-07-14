@@ -1,4 +1,4 @@
-Image Function is firstly made by __spyro. After the ui libs with image function probably skidded this source
+Image Function is firstly made by __spyro. After the ui libs made with image function probably skidded this source
 # Put this to make ui lib working
 ```lua
 _Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
