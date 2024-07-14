@@ -2,7 +2,7 @@
 _Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
 
 --loadstring
-local Hawk = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHzCihan/IDream/main/Libs/NewLib.lua", true))()
+local Hawk = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheHanki/HawkHUB/main/LibSources/HawkLib.lua", true))()
 
 --------------------------------------------------------------------------
 
