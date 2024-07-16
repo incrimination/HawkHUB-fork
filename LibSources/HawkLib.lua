@@ -1299,7 +1299,7 @@ function HawkLib:Window(Win)
 						callback = callback or function()
 						end
 
-						local mouse = game.Players.LocalPlayer:GetMouse()
+						local mouse = game:GetService("Players").LocalPlayer:GetMouse()
 						local uis = game:GetService("UserInputService")
 
 						local Slider = Instance.new("Frame")
@@ -1451,7 +1451,7 @@ function HawkLib:Window(Win)
 						)
 
 						if OnPc then
-							local mouse = game.Players.LocalPlayer:GetMouse()
+							local mouse = game:GetService("Players").LocalPlayer:GetMouse()
 							local uis = game:GetService("UserInputService")
 							local Value;
 
@@ -1493,7 +1493,7 @@ function HawkLib:Window(Win)
 							):Play()
 						elseif OnMobile or OnTabletLaptop then
 
-							local mouse = game.Players.LocalPlayer:GetMouse()
+							local mouse = game:GetService("Players").LocalPlayer:GetMouse()
 							local uis = game:GetService("UserInputService")
 							local Value;
 
@@ -4131,7 +4131,7 @@ function HawkLib:Window(Win)
 				callback = callback or function()
 				end
 
-				local mouse = game.Players.LocalPlayer:GetMouse()
+				local mouse = game:GetService("Players").LocalPlayer:GetMouse()
 				local uis = game:GetService("UserInputService")
 
 				local Slider = Instance.new("Frame")
@@ -4283,7 +4283,7 @@ function HawkLib:Window(Win)
 				)
 
 				if OnPc then
-					local mouse = game.Players.LocalPlayer:GetMouse()
+					local mouse = game:GetService("Players").LocalPlayer:GetMouse()
 					local uis = game:GetService("UserInputService")
 					local Value;
 
@@ -4325,7 +4325,7 @@ function HawkLib:Window(Win)
 					):Play()
 				elseif OnMobile or OnTabletLaptop then
 
-					local mouse = game.Players.LocalPlayer:GetMouse()
+					local mouse = game:GetService("Players").LocalPlayer:GetMouse()
 					local uis = game:GetService("UserInputService")
 					local Value;
 
