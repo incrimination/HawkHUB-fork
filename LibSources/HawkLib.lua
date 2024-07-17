@@ -2316,7 +2316,7 @@ function HawkLib:Window(Win)
 							function()
 								if not focusing then
 									if toggled == false then
-										game.TweenService:Create(
+										TweenService:Create(
 											done,
 											TweenInfo.new(0.11, Enum.EasingStyle.Linear, Enum.EasingDirection.In),
 											{
@@ -2325,7 +2325,7 @@ function HawkLib:Window(Win)
 										):Play()
 
 									else
-										game.TweenService:Create(
+										TweenService:Create(
 											done,
 											TweenInfo.new(0.11, Enum.EasingStyle.Linear, Enum.EasingDirection.In),
 											{
@@ -2355,7 +2355,7 @@ function HawkLib:Window(Win)
 							if zz ~= nil then
 								toggled = zz
 								if toggled == false then
-									game.TweenService:Create(
+									TweenService:Create(
 										done,
 										TweenInfo.new(0.11, Enum.EasingStyle.Linear, Enum.EasingDirection.In),
 										{
@@ -2364,7 +2364,7 @@ function HawkLib:Window(Win)
 									):Play()
 
 								else
-									game.TweenService:Create(
+									TweenService:Create(
 										done,
 										TweenInfo.new(0.11, Enum.EasingStyle.Linear, Enum.EasingDirection.In),
 										{
@@ -2382,7 +2382,7 @@ function HawkLib:Window(Win)
 						elseif check == false then
 							Toggleee:UpdateToggle(false)
 						elseif check == nil or tostring(check):match("func") then
-							game.TweenService:Create(
+							TweenService:Create(
 								done,
 								TweenInfo.new(0.11, Enum.EasingStyle.Linear, Enum.EasingDirection.In),
 								{
@@ -5148,7 +5148,7 @@ function HawkLib:Window(Win)
 					function()
 						if not focusing then
 							if toggled == false then
-								game.TweenService:Create(
+								TweenService:Create(
 									done,
 									TweenInfo.new(0.11, Enum.EasingStyle.Linear, Enum.EasingDirection.In),
 									{
@@ -5157,7 +5157,7 @@ function HawkLib:Window(Win)
 								):Play()
 
 							else
-								game.TweenService:Create(
+								TweenService:Create(
 									done,
 									TweenInfo.new(0.11, Enum.EasingStyle.Linear, Enum.EasingDirection.In),
 									{
@@ -5187,7 +5187,7 @@ function HawkLib:Window(Win)
 					if zz ~= nil then
 						toggled = zz
 						if toggled == false then
-							game.TweenService:Create(
+							TweenService:Create(
 								done,
 								TweenInfo.new(0.11, Enum.EasingStyle.Linear, Enum.EasingDirection.In),
 								{
@@ -5196,7 +5196,7 @@ function HawkLib:Window(Win)
 							):Play()
 
 						else
-							game.TweenService:Create(
+							TweenService:Create(
 								done,
 								TweenInfo.new(0.11, Enum.EasingStyle.Linear, Enum.EasingDirection.In),
 								{
@@ -5214,7 +5214,7 @@ function HawkLib:Window(Win)
 				elseif check == false then
 					Toggleee:UpdateToggle(false)
 				elseif check == nil or tostring(check):match("func") then
-					game.TweenService:Create(
+					TweenService:Create(
 						done,
 						TweenInfo.new(0.11, Enum.EasingStyle.Linear, Enum.EasingDirection.In),
 						{
