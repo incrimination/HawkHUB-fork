@@ -307,7 +307,7 @@ function HawkLib:Window(Win)
 
 		if bali ~= nil then
 			if bali == true then
-				for i, v in pairs(game.CoreGui:GetChildren()) do
+				for i, v in pairs(game:GetService("CoreGui"):GetChildren()) do
 					if v.Name == "Hawk" then
 						v:Destroy()
 					end
@@ -386,7 +386,7 @@ function HawkLib:Window(Win)
 		Hawk.Name = "Hawk"		
 		Hawk.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 		Hawk.ResetOnSpawn = false
-		Hawk.Parent = game.CoreGui
+		Hawk.Parent = game:GetService("CoreGui")
 
 		Main.Name = "Main"
 		Main.Parent = Hawk
@@ -545,7 +545,7 @@ function HawkLib:Window(Win)
 		Shadow.SliceCenter = Rect.new(24, 24, 276, 276)
 
 		function HawkLib:ToggleUI()	
-			for i, v in pairs(game.CoreGui:GetChildren()) do
+			for i, v in pairs(game:GetService("CoreGui"):GetChildren()) do
 				if v.Name == "Hawk" then
 					if v.Enabled == true then
 						v.Enabled = false
@@ -557,7 +557,7 @@ function HawkLib:Window(Win)
 		end
 
 		function HawkLib:Destroy()		
-			for i, v in pairs(game.CoreGui:GetChildren()) do
+			for i, v in pairs(game:GetService("CoreGui"):GetChildren()) do
 				if v.Name == "Hawk" then
 					v:Destroy()
 				end 
@@ -567,7 +567,7 @@ function HawkLib:Window(Win)
 		local Sayfalar = {}	
 
 		function Sayfalar:ToggleUI()		
-			for i, v in pairs(game.CoreGui:GetChildren()) do
+			for i, v in pairs(game:GetService("CoreGui"):GetChildren()) do
 				if v.Name == "Hawk" then
 					if v.Enabled == true then
 						v.Enabled = false
@@ -579,7 +579,7 @@ function HawkLib:Window(Win)
 		end
 
 		function Sayfalar:Destroy()		
-			for i, v in pairs(game.CoreGui:GetChildren()) do
+			for i, v in pairs(game:GetService("CoreGui"):GetChildren()) do
 				if v.Name == "Hawk" then
 					v:Destroy()
 				end 
